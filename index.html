@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo VLibras</title>
+
+    <!-- Adicionando o script do VLibras -->
+    <script type="text/javascript" src="https://www.vlibras.gov.br/app/vlibras.js"></script>
+</head>
+<body>
+    <h1>Texto para ser traduzido em Libras</h1>
+    <p>Este é um exemplo de texto que pode ser traduzido para a Língua Brasileira de Sinais (Libras).</p>
+
+    <!-- Div onde o widget do VLibras será inserido -->
+    <div id="vlibras"></div>
+
+    <!-- Inicializando o widget -->
+    <script type="text/javascript">
+        new window.VLibras.Widget('https://www.vlibras.gov.br/app');
+    </script>
+</body>
+</html>
